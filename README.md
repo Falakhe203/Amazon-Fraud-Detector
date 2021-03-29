@@ -6,7 +6,7 @@ Amazon Fraud Detector is a fully managed service that makes it easy to identify 
    You need to have an AWS account and some basic knowledge working with AWS services.
    The following AWS services will be utilized throughout this guide:
   - AWS Fraud Detector
-  - AWS S3 (Simple Storage Service)
+  - AWS S3 (Simple Storage Service
   - AWS IAM (Identity Access Management Service)
 
 # Security Architecture
@@ -173,28 +173,28 @@ Create a new model by associating training data with the Amazon Fraud Detector O
 **3.1 Define Model Details**
 
 Fill in the required details about your model.
-![alt text](resources/2.1 a.png)
+![alt text](resources/2.1_a.png)
 
 
 The Online Fraud Insights model template creates models designed to detect a variety of online fraud and abuse risks. This model template requires the following inputs to train a model:
 
-![alt text](resources/2.1 b.png)
+![alt text](resources/2.1_b.png)
 
 Add IAM Role ARN to grant the Fraud Detector service permission to access your historical data.
 
-![alt text](resources/2.1 c.png)
+![alt text](resources/2.1_c.png)
 
 
 **3.2 Configure Model**
 
 Map training dataset to model inputs. Select the rows you want to create as variables, then select a model input for each training dataset column to use them for model training. Variables will not be created for unselected rows.
 
-![alt text](resources/2.2 a.png)
+![alt text](resources/2.2_a.png)
 
 
 Map the values in your fraud label column into values that represent fraudulent events and values that represent legitimate events to help your model learn to distinguish between these two categories.
 
-![alt text](resources/2.2 b.png)
+![alt text](resources/2.2_b.png)
 
 - Click **Next**
 
